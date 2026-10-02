@@ -1,0 +1,52 @@
+# ---- data (competition files: large, not ours to redistribute)
+student_resource/dataset/
+dataset/
+*.tsv
+*.csv
+
+# ---- everything the pipeline generates (GBs)
+work/
+output/
+output_*/
+submissions/
+final_package/
+*.zip
+
+# ---- model weights / arrays / intermediate tables
+*.parquet
+*.npy
+*.npz
+*.duckdb
+*.duckdb.wal
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+lgbm.txt
+pruner.txt
+model/
+model2/
+stack*/
+
+# ---- logs
+*.log
+nohup.out
+
+# ---- python / environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+.huggingface/
+
+# ---- editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
